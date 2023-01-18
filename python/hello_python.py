@@ -1,6 +1,8 @@
 
 import sys
 
+# Uma função em Python
+
 def greeting(name: str):
     print(f"Hello {name}")
 

@@ -1,11 +1,9 @@
-
-import sys
-
-# Uma função em Python
+import sys          # módulo com definições sobre o sistema
 
 def greeting(name: str):
     print(f"Hello {name}")
 
+print("Olá!")
 greeting(sys.argv[1])
 
 # greeting(input("Como se chama? "))
@@ -24,7 +22,7 @@ greeting(sys.argv[1])
 # Python : vals = [10, 20, 30]
 
 # import sys : lê o módulo sys para memória, e coloca o nome 'sys' no 
-#   espaço de nomes deste script/módulo.
+#  espaço de nomes deste script/módulo.
 #  JS       : import * from 'sys'
 
 # Uma lista (list) é uma sequência MUTÁVEL e heterogénea de valores

@@ -1,9 +1,17 @@
 # Descrição
 
 Neste repositório guardamos exemplos e laboratórios relacionados com 
-programação Web, *client* e *server-side*. 
+programação Web *client* e *server-side*. 
 
 # Instalação
+
+Vamos indicar os procedimentos necessários para:
+
+- Instalar o Python
+- Instalar a framework Flask e respectivas dependências
+- Instalar a framework FastAPI e respectivas dependências
+- Criar um ambiente virtual
+
 
 ## Linux
 

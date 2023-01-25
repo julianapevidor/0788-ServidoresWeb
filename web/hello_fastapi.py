@@ -25,3 +25,11 @@ async def read_item(item_id: int, q: str | None = None):
 #   - DELETE: apagar recursos no lado do servidor
 #   - HEAD
 #   - etc.
+
+# Exercício: 
+#       1. Correr no vosso repositório o hello_fastapi.py (c/ uvicorn)
+#       2. Testar
+#       3. Acrescentar função para receber dois parâmetros x e y e devolver
+#          a soma de x com y. A função deve ser acessível por get e o caminho
+#          deve começar com "/soma". A função deve-se chamar "sum".
+#

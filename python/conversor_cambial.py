@@ -33,6 +33,7 @@ def main():
         elif opcao.upper() == 'T':
             print("Programa vai terminar")
             break
+        #:
     #:
 #:
 

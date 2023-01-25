@@ -16,6 +16,12 @@ async def read_item(item_id: int, q: str | None = None):
     return {"2xitem_id": item_id * 2, "q": q}
 #:
 
+@app.get("/soma/{x}/{y}")
+async def sum(x: int, y: int):
+    return {"x + y": x + y}
+#:
+
+
 # Por omissão FastAPI gera JSON
 
 # Protocolo HTTP possui um conjunto de métodos (isto é, de mensagens):

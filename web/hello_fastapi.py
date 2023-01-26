@@ -21,7 +21,6 @@ async def sum(x: int, y: int):
     return {"x + y": x + y}
 #:
 
-
 # Por omissão FastAPI gera JSON
 
 # Protocolo HTTP possui um conjunto de métodos (isto é, de mensagens):

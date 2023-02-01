@@ -3,7 +3,7 @@ import sys          # módulo com definições sobre o sistema
 def greeting(name: str):
     print(f"Hello {name}")
 
-print("Olá!")
+print("Olá mundo!")
 greeting(sys.argv[1])
 
 # greeting(input("Como se chama? "))
